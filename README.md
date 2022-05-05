@@ -16,26 +16,26 @@ Follow instructions from this repo to import the MIMIC-III dataset into PostgreS
 
 ## Extract raw data required for the research
 
-Execute queries from extract_data.sql to extract the raw data in CSV files. This data will be processed in the next step. 
+Execute queries from [extract_data.sql](/extract_data.sql)  to extract the raw data in CSV files. This data will be processed in the next step. 
 
 ## Data pre-processing
 
-Execute steps from the jupyter notebook Process_ICU_Stays.ipynb to pre-process the data and save the output of pre-processing as numpy arrays.
+Execute steps from the jupyter notebook [Process_ICU_Stays.ipynb](/Process_ICU_Stays.ipynb) to pre-process the data and save the output of pre-processing as numpy arrays.
 
 ## Model
 
 ### LSTM with Chart events
 
-Execute steps from the jupyter notebook Project_Model_LSTM_CHARTEVENTS.ipynb to train and test the LSTM model with Chart events dataset.
+Execute steps from the jupyter notebook [Project_Model_LSTM_CHARTEVENTS.ipynb](/Project_Model_LSTM_CHARTEVENTS.ipynb) to train and test the LSTM model with Chart events dataset.
 
 ### LSTM  with Chart events + ICD9 + Patient Demographics
 
-Execute steps from the jupyter notebook Project_Model_LSTM_CHARTEVENTS_ICD9_DEMOGRAPHIC.ipynb to train and test the LSTM model with Chart events dataset, ICD9 groups and patient demographics.
+Execute steps from the jupyter notebook [Project_Model_LSTM_CHARTEVENTS_ICD9_DEMOGRAPHIC.ipynb](/Project_Model_LSTM_CHARTEVENTS_ICD9_DEMOGRAPHIC.ipynb) to train and test the LSTM model with Chart events dataset, ICD9 groups and patient demographics.
 
 ### LSTM+CNN (3 layers)  with Chart events + ICD9 + Patient Demographics
 
-Execute steps from the jupyter notebook Project_Model_LSTM_CNN_CHARTEVENTS_ICD9_DEMOGRAPHIC.ipynb to train and test the LSTM+CNN model with Chart events dataset, ICD9 groups and patient demographics.
+Execute steps from the jupyter notebook [Project_Model_LSTM_CNN_CHARTEVENTS_ICD9_DEMOGRAPHIC.ipynb](/Project_Model_LSTM_CNN_CHARTEVENTS_ICD9_DEMOGRAPHIC.ipynb) to train and test the LSTM+CNN model with Chart events dataset, ICD9 groups and patient demographics.
 
 ### LSTM+CNN (6 layers)  with Chart events + ICD9 + Patient Demographics
 
-Execute steps from the jupyter notebook Project_Model_LSTM_CNN_6_CHARTEVENTS_ICD9_DEMOGRAPHIC.ipynb to train and test the LSTM+CNN model with Chart events dataset, ICD9 groups and patient demographics.
+Execute steps from the jupyter notebook [Project_Model_LSTM_CNN_6_CHARTEVENTS_ICD9_DEMOGRAPHIC.ipynb](/Project_Model_LSTM_CNN_6_CHARTEVENTS_ICD9_DEMOGRAPHIC.ipynb) to train and test the LSTM+CNN model with Chart events dataset, ICD9 groups and patient demographics.
