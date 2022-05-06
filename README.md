@@ -52,4 +52,4 @@ Execute steps from the jupyter notebook [Project_Model_LSTM_CNN_6_CHARTEVENTS_IC
 ### Results
 
 
-<img width="457" alt="Results" src="https://user-images.githubusercontent.com/5384400/167064222-d7611143-090c-4408-b87d-3890f3d97462.png">
+<img width="700" alt="Results" src="https://user-images.githubusercontent.com/5384400/167064222-d7611143-090c-4408-b87d-3890f3d97462.png">
