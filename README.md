@@ -48,3 +48,8 @@ Execute steps from the jupyter notebook [Project_Model_LSTM_CNN_CHARTEVENTS_ICD9
 ### LSTM+CNN (6 layers)  with Chart events + ICD9 + Patient Demographics
 
 Execute steps from the jupyter notebook [Project_Model_LSTM_CNN_6_CHARTEVENTS_ICD9_DEMOGRAPHIC.ipynb](/Project_Model_LSTM_CNN_6_CHARTEVENTS_ICD9_DEMOGRAPHIC.ipynb) to train and test the LSTM+CNN model with Chart events dataset, ICD9 groups and patient demographics.
+
+### Results
+
+
+<img width="457" alt="Results" src="https://user-images.githubusercontent.com/5384400/167064222-d7611143-090c-4408-b87d-3890f3d97462.png">
