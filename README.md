@@ -2,6 +2,15 @@
 
  This repo contains code for the raw data extraction, data preprocessing, and implementation of the LSTM and LSTM+CNN models for the paper "Design and implementation of a deep recurrent model for prediction of readmission in urgent care using electronic health records"
 
+## Pre-requisites to use code from this repo
+
+- Install PostgreSQL in the local machine <https://www.postgresql.org/download/>
+- Install DBEaver community edition <https://dbeaver.io/download/>
+- Install Python <https://www.python.org/downloads/>
+- Install pip <https://pip.pypa.io/en/stable/installation/>
+- Install python modules [pandas](https://pandas.pydata.org/docs/getting_started/install.html#installing-from-pypi), [numpy](https://numpy.org/install/), [pytorch](https://pytorch.org/get-started/locally/#start-locally), [imblearn](https://pypi.org/project/imblearn/), [scikit-learn](https://scikit-learn.org/stable/install.html)
+
+
 ## Paper
 
 <https://ieeexplore.ieee.org/document/8791466>
@@ -12,7 +21,7 @@ Follow instructions in this link to get access to the MIMIC-III dataset used in 
 
 ## Importing Dataset
 
-Follow instructions from this repo to import the MIMIC-III dataset into PostgreSQL database.
+Follow instructions from this repo to import the MIMIC-III dataset into PostgreSQL database. <https://github.com/MIT-LCP/mimic-code/tree/main/mimic-iii/buildmimic/postgres>
 
 ## Extract raw data required for the research
 
