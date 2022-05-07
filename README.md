@@ -15,7 +15,7 @@
 
 <https://ieeexplore.ieee.org/document/8791466>
 
-## Dataset
+## Access to the Dataset
 
 Follow instructions in this link to get access to the MIMIC-III dataset used in the paper <https://eicu-crd.mit.edu/gettingstarted/access/>
 
