@@ -1,6 +1,6 @@
 # ICU Readmission Prediction
 
- This repo contains code for the raw data extraction, data preprocessing, and implementation of the LSTM and LSTM+CNN models for the paper "Design and implementation of a deep recurrent model for prediction of readmission in urgent care using electronic health records"
+ This repo contains code for the raw data extraction, data preprocessing, and implementation of the LSTM and LSTM+CNN models for the paper "Design and implementation of a deep recurrent model for prediction of readmission in urgent care using electronic health records".
 
 ## Pre-requisites to use code from this repo
 
